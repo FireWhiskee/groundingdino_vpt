@@ -9,8 +9,8 @@
   ],
   "val": [
     {
-      "root": "path/coco_2017/val2017",
-      "anno": "config/instances_val2017.json",
+      "root": "/content/drive/MyDrive/TRAIN/images/test",
+      "anno": "/content/drive/MyDrive/TRAIN/test.json",
       "label_map": null,
       "dataset_mode": "coco"
     }

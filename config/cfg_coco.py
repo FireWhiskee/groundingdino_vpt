@@ -111,4 +111,5 @@ match_unstable_error = True
 use_detached_boxes_dec_out = False
 dn_scalar = 100
 
-use_coco_eval = True
+label_list = ["storagetank","ship","baseballfield","bridge","vehicle","airport","basketballcourt","expressway service area","windmill","tenniscourt","groundtrackfield","chimney","airplane","golffield","overpass","stadium","harbor","dam","expressway toll station","trainstation"]
+use_coco_eval = False

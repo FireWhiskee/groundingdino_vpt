@@ -1,0 +1,32 @@
+{
+  "config_file": "config/cfg_coco.py",
+  "options": {
+    "text_encoder_type": "/content/Open-GroundingDino/weights/bert-base-uncased"
+  },
+  "datasets": "config/datasets_od_example.json",
+  "remove_difficult": false,
+  "fix_size": false,
+  "output_dir": "testresult1",
+  "note": "",
+  "device": "cuda",
+  "seed": 42,
+  "resume": "",
+  "pretrain_model_path": "/content/Open-GroundingDino/result2/checkpoint_best_regular.pth",
+  "finetune_ignore": null,
+  "start_epoch": 0,
+  "eval": true,
+  "num_workers": 8,
+  "test": false,
+  "debug": false,
+  "find_unused_params": false,
+  "save_results": false,
+  "save_log": false,
+  "world_size": 1,
+  "dist_url": "env://",
+  "rank": 0,
+  "local_rank": 0,
+  "amp": false,
+  "gpu": 0,
+  "distributed": true,
+  "dist_backend": "nccl"
+}
